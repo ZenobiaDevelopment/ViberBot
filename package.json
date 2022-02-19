@@ -1,0 +1,23 @@
+{
+  "name": "viberbot",
+  "version": "1.0.0",
+  "description": "Simple Viber Bot made with Helerius.",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-json-modules main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZenobiaDevelopment/ViberBot.git"
+  },
+  "author": "trojanz07",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ZenobiaDevelopment/ViberBot/issues"
+  },
+  "homepage": "https://github.com/ZenobiaDevelopment/ViberBot#readme",
+  "dependencies": {
+    "helerius": "^1.5.0"
+  }
+}
