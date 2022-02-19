@@ -29,5 +29,5 @@ client.on('messageCreate', message => {
 
 
 client.loadMessageEvent();
-client.addWebhook(8080);
+client.addWebhook(config.PORT);
 client.login(config.token, config.webhook);
